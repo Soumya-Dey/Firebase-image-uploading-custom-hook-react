@@ -3,13 +3,13 @@ import "firebase/storage";
 
 // Replace this object with your firebase credentials
 const firebaseConfig = {
-    apiKey: "AIzaSyDo5UUe86THOjczUA3ewsshEgFlLVmpj2E",
-    authDomain: "new-project-96176.firebaseapp.com",
-    databaseURL: "https://new-project-96176.firebaseio.com",
-    projectId: "new-project-96176",
-    storageBucket: "new-project-96176.appspot.com",
-    messagingSenderId: "540402281342",
-    appId: "1:540402281342:web:d63d977d86ca18d829e12f",
+    apiKey: "AIzaSyDlZSF9l7LoiuNAFMg5SDnjOUXCnJIv2dQ",
+    authDomain: "new-project-bf199.firebaseapp.com",
+    databaseURL: "https://new-project-bf199.firebaseio.com",
+    projectId: "new-project-bf199",
+    storageBucket: "new-project-bf199.appspot.com",
+    messagingSenderId: "1023630582426",
+    appId: "1:1023630582426:web:d2a8b87d3bad2643427523",
 };
 
 firebase.initializeApp(firebaseConfig);

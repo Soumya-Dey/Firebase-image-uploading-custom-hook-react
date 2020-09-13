@@ -34,18 +34,22 @@ function App() {
                     <span>Upload Image</span>
                 </label>
             </form>
-            // error message
+
+            {/* error message */}
             {error && <p>{error}</p>}
-            // upload progress
+
+            {/* upload progress */}
             {file && <p>{progress}% uploaded</p>}
-            // image url
+
+            {/* image url */}
             {url && (
                 <p>
                     <b>File url: </b>
                     <a href={url}>{url}</a>
                 </p>
             )}
-            // image display
+
+            {/* image display */}
             {url && <img src={url}></img>}
         </div>
     );
