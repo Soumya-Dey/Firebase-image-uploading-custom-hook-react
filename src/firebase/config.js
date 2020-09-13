@@ -1,6 +1,7 @@
 import firebase from "firebase";
 import "firebase/storage";
 
+// Replace this object with your firebase credentials
 const firebaseConfig = {
     apiKey: "AIzaSyDo5UUe86THOjczUA3ewsshEgFlLVmpj2E",
     authDomain: "new-project-96176.firebaseapp.com",

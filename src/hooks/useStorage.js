@@ -10,7 +10,7 @@ export const useStorage = (file) => {
     // runs every time the file value changes
     useEffect(() => {
         if (file) {
-            // storage and collection refs
+            // storage refs
             const storageRef = projectStorage.ref(file.name);
 
             storageRef.put(file).on(
